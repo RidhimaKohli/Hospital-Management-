@@ -40,3 +40,17 @@ For Django Website
 7. Go to localhost address and the website is displayed
 
 # Screenshots 🖼️
+
+![img](images/home1.png)
+
+![img](images/home2.png)
+
+![img](images/doc1.png)
+
+![img](images/doc2.png)
+
+![img](images/login.png)
+
+![img](images/admin.png)
+
+
