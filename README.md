@@ -9,11 +9,23 @@ Features :
 
 Link to report : 
 
-#Requirements 🛠️
+# Requirements 🛠️
 
 - MYSQL Client
 - XAMPP
 - Django
+
+# Connect Django To already existing database in XAMPP 🖇️
+
+- Install MysqlClient
+- Run XAMPP Server
+- Make changes in DATABASES of settings.py as mentioned in code
+- On terminal , run the command `python manage.py inspectdb > models.py` in a folder different from the actual models.py 
+- Now copy the models formed in the new models.py to original
+- Run `python manage.py makemigrations`
+- Run `python manage.py migrate`
+- Create superuser 
+- Run the project with runserver command and if there are no errors , the XAMPP database is connected successfully
 
 # How to run ▶️
 
